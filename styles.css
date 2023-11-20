@@ -328,22 +328,71 @@ footer a:hover {
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
+  header ul {
+    gap: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .primary-section {
+    height: auto;
+    padding: 2rem;
+    line-height: 1.5;
+  }
+
+  .wellness-gallery {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wellness-gallery img {
+    width: 80%;
+  }
+
+  .wellness-gallery-2 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .container {
     height: 26rem;
     background-size: cover;
     gap: 1rem;
   }
 
+  .container h1 {
+    font-size: 3rem;
+  }
+
+  .container p {
+    font-size: 1rem;
+  }
+
   .wellness-gallery img {
-    width: 35%;
+    width: 55%;
     gap: 1rem;
     padding: 1rem 0.5rem;
   }
 
   .wellness-gallery-2 img {
-    width: 35%;
+    width: 55%;
     gap: 1rem;
     padding: 1rem 0.5rem;
+  }
+
+  .discovery h3 {
+    font-size: 1rem;
+  }
+
+  footer ul {
+    gap: 4rem;
   }
 }
 
@@ -356,7 +405,7 @@ footer a:hover {
   }
 
   .container h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .container p {
